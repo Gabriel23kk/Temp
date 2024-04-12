@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://images.unsplash.com/photo-1503401639559-b16332601594?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMjcxNTEzOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    
 }
 
 .Caixa-maior {
@@ -71,4 +72,9 @@ body {
 .Umidade {
     color: #ffffff;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e8e8e866;
+
 }
