@@ -11,6 +11,9 @@ function ColocarNaTela(dados) {
 
     document.querySelector(".Cidade").innerHTML = "Tempo em "+dados.name
     document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
+    document.querySelector(".Umidade").innerHTML = "Umidade "+dados.main.humidity + "%"
+    document.querySelector(".img-previsão").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
+    document.querySelector(".Texto-previsão").innerHTML = dados.weather[0].main
 }
 
 async function BuscarCidade(cidade) {
